@@ -1,0 +1,34 @@
+### GET PARTNER CALL
+Get http://localhost:4004/prm/Partners
+Content-Type: application/json
+Accept: application/json
+
+### GET PARTNER CALL
+Get http://localhost:4004/prm/Partners?$filter=FirstName eq 'Deloitte'
+Content-Type: application/json
+Accept: application/json
+
+### GET PARTNER CALL
+Get http://localhost:4004/prm/Partners?$select=LastName
+Content-Type: application/json
+Accept: application/json
+
+### GET PARTNER CALL
+Get http://localhost:4004/prm/Partners?$orderby=FirstName
+Content-Type: application/json
+Accept: application/json
+
+### GET PARTNER CALL
+Get http://localhost:4004/prm/Partners/$count
+Content-Type: application/json
+Accept: application/json
+
+### GET PARTNER CALL
+Get http://localhost:4004/prm/Partners?$top=2&$skip=0
+Content-Type: application/json
+Accept: application/json
+
+### GET PARTNER CALL
+Get http://localhost:4004/prm/Partners?$expand=contacts
+Content-Type: application/json
+Accept: application/json
